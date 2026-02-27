@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: PRETHIVIRAJAN L
+* **Register Number**: 212224040251
+* **Date of Submission**: 27-02-2026
 
 ---
 
@@ -96,35 +96,46 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
----
+1. Launch Your Amazon EC2 Instance task provisions a Amazon EC2 instance in the N. Virginia region with termination and stop protection enabled, configured inside a Lab VPC with a custom security group, and bootstrapped via user data to automatically deploy an Apache web server on Amazon Linux 2023.
+2. Monitor Your Instance task focuses on monitoring your Amazon EC2 instance using status checks, logs, screenshots, and performance metrics through Amazon CloudWatch to ensure reliability and troubleshoot issues proactively.
+3. Update Your Security Group and Access the Web Server task updates the security group of your Amazon EC2 instance to allow inbound HTTP (port 80) traffic, enabling external access to the deployed web server via its public IPv4 address.
+4. Resize Your Instance task stops your Amazon EC2 instance to upgrade its instance type from t2.micro to t2.small, enables stop protection, and increases the attached Amazon Elastic Block Store volume size from 8 GiB to 10 GiB before restarting it.
+5. Explore EC2 Limits task involves reviewing regional resource quotas for Amazon Elastic Compute Cloud through the Service Quotas console to understand default limits on running on-demand instances and other EC2 resources, and how they govern deployment capacity.
+6.Test Stop Protection task validates stop protection on your Amazon EC2 instance by attempting to stop it, confirming the safeguard blocks the action, then disabling the protection to successfully stop the instance.
 
 ## Output Screenshots (Attach 3)
 
+
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+<img width="1856" height="1090" alt="Screenshot (55)" src="https://github.com/user-attachments/assets/ef77aa79-d46f-4c2c-9b36-6769368c3d54" />
+
+
+<img width="1860" height="1141" alt="Screenshot (58)" src="https://github.com/user-attachments/assets/540e111b-bbce-42cf-9f3d-620c1142a9a2" />
+
+<img width="1860" height="1141" alt="Screenshot (60)" src="https://github.com/user-attachments/assets/dee18429-385a-4ae8-87ce-41bb48537850" />
+
+
+
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="1858" height="1153" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/2c0c809c-46ea-472d-8458-e2163732c9e8" />
 
----
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1853" height="1139" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/8cb88daa-7be7-4709-b41e-92a6c8abeb75" />
 
----
+
+<img width="1854" height="1089" alt="Screenshot (56)" src="https://github.com/user-attachments/assets/cf0aaaff-9081-4be6-bcc7-f6f8751738b6" />
+
+
+<img width="1863" height="1146" alt="Screenshot (53)" src="https://github.com/user-attachments/assets/341a1965-4d16-4e27-8649-7eec488c774e" />
+
+
 
 ## Result 
 
