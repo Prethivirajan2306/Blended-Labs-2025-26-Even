@@ -2,10 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
-
+* **Name**: Prethivirajan L
+* **Register Number**: 212224040251
+* **Date of Submission**: 17.03.2026
 ---
 
 ## Objective
@@ -84,33 +83,40 @@ Test the database server by connecting to it locally or remotely and performing 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1.Logged in to AWS and opened Amazon EC2.
 
----
+2.Launched a new EC2 instance using Amazon Linux 2.
+
+3.Configured the security group to allow SSH (22) and MySQL (3306).
+
+4.Connected to the EC2 instance using SSH.
+
+5.Installed the MySQL database server.
+
+6.Started the MySQL service and set the root password.
+
+7.Created a sample database and table.
+
+8.Tested the database using SQL queries.
+
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1856" height="1146" alt="Screenshot (69)" src="https://github.com/user-attachments/assets/d130950d-cae9-4242-8b63-762197f0d541" />
 
----
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1856" height="1142" alt="Screenshot (73)" src="https://github.com/user-attachments/assets/6926b226-18eb-4876-be85-d24bd60f363f" />
 
----
+
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1863" height="1142" alt="Screenshot (75)" src="https://github.com/user-attachments/assets/b0cf4d0f-9c3a-4609-94b6-d99b31f237c0" />
 
----
 
 ## Result
 
