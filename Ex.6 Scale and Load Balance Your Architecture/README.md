@@ -3,7 +3,9 @@
 ## Title
 
 Scale and Load Balance Your Architecture
-Author : your name   Reg no : yours   Date :
+# Author : Prethivirajan L
+# Reg no : 212224040251 
+# Date : 18.03.2026
 
 ---
 
@@ -66,14 +68,47 @@ Students test the setup by generating traffic and observing automatic scaling an
 
 ## Workflow (To be filled by Student)
 
-Describe step-by-step how you performed this experiment in your own words.
+1.Logged in to the AWS Management Console and opened Amazon EC2.
 
----
+2.Reviewed the existing EC2 architecture created in the previous labs.
+
+3.Created a Launch Template with AMI, instance type, and security group configuration.
+
+4.Created an Auto Scaling Groups using the launch template and set the minimum, maximum, and desired instances.
+
+5.Created an Application Load Balancer to distribute incoming traffic.
+
+6.Attached the Auto Scaling Group to the target group of the load balancer.
+
+7.Configured scaling policies based on CPU usage using Amazon CloudWatch alarms.
+
+8.Tested the architecture by generating traffic and observed automatic scaling and load balancing.
+
 
 ## Output Screenshots 
 
 
----
+<img width="1853" height="1086" alt="Screenshot (82)" src="https://github.com/user-attachments/assets/ac8c8d65-f67b-428c-90ba-2fc0b0334f10" />
+
+
+<img width="1858" height="1027" alt="Screenshot (83)" src="https://github.com/user-attachments/assets/24892197-76df-466a-be66-2439a19901ca" />
+
+
+<img width="1855" height="1075" alt="Screenshot (84)" src="https://github.com/user-attachments/assets/3f5ca555-e8f1-4f90-acd0-2b6b9d664efa" />
+
+
+<img width="1858" height="1076" alt="Screenshot (85)" src="https://github.com/user-attachments/assets/cd796cd8-60c1-4c9b-b033-119ba13464df" />
+
+
+<img width="1853" height="1079" alt="Screenshot (87)" src="https://github.com/user-attachments/assets/df0b2081-fc54-4087-a449-bcc2f5ac529b" />
+
+
+
+<img width="1861" height="1030" alt="Screenshot (88)" src="https://github.com/user-attachments/assets/a293e2aa-901a-4d57-9885-614977301f34" />
+
+
+
+
 
 
 ## Result
